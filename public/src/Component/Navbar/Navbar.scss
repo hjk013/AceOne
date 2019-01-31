@@ -1,0 +1,41 @@
+#navbar {
+  position: fixed;
+  text-transform: uppercase;
+  background-color: black;
+  width: 100%;
+
+  div {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+.menu-logo {
+  color: white;
+  vertical-align: middle;
+}
+
+.main-menu {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  display: flex;
+  position: relative;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 12px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.menu-item:hover {
+  background-color: white;
+  color: black;
+}

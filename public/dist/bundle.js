@@ -108,6 +108,17 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../../node_module
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Component/Navbar/Navbar.scss":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Component/Navbar/Navbar.scss ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"#navbar {\\n  position: fixed;\\n  text-transform: uppercase;\\n  background-color: black;\\n  width: 100%; }\\n  #navbar div {\\n    width: 80%;\\n    display: flex;\\n    align-items: center;\\n    margin: 0 auto; }\\n\\n.menu-logo {\\n  color: white;\\n  vertical-align: middle; }\\n\\n.main-menu {\\n  display: flex;\\n  padding: 20px;\\n  width: 100%;\\n  justify-content: flex-end; }\\n\\n.menu-item {\\n  display: flex;\\n  position: relative;\\n  padding: 10px;\\n  padding-left: 40px;\\n  padding-right: 40px;\\n  font-size: 12px;\\n  color: white;\\n  letter-spacing: 1px; }\\n\\n.menu-item:hover {\\n  background-color: white;\\n  color: black; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./public/src/Component/Navbar/Navbar.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/runtime/api.js":
 /*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
@@ -293,7 +304,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Home */ \"./public/src/Component/Home/index.jsx\");\n/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Navbar */ \"./public/src/Component/Navbar/index.jsx\");\n/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Navbar__WEBPACK_IMPORTED_MODULE_2__);\n // Component\n\n\n\n\nvar App = function App() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./public/src/Component/App/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Home */ \"./public/src/Component/Home/index.jsx\");\n/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Navbar */ \"./public/src/Component/Navbar/index.jsx\");\n // Component\n\n\n\n\nvar App = function App() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Home__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./public/src/Component/App/index.jsx?");
 
 /***/ }),
 
@@ -331,14 +342,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Hom
 
 /***/ }),
 
+/***/ "./public/src/Component/Navbar/Navbar.scss":
+/*!*************************************************!*\
+  !*** ./public/src/Component/Navbar/Navbar.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/lib/loader.js!./Navbar.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Component/Navbar/Navbar.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./public/src/Component/Navbar/Navbar.scss?");
+
+/***/ }),
+
 /***/ "./public/src/Component/Navbar/index.jsx":
 /*!***********************************************!*\
   !*** ./public/src/Component/Navbar/index.jsx ***!
   \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("\n\n//# sourceURL=webpack:///./public/src/Component/Navbar/index.jsx?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Navbar_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navbar.scss */ \"./public/src/Component/Navbar/Navbar.scss\");\n/* harmony import */ var _Navbar_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Navbar_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nvar Navbar = function Navbar() {\n  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"div\", {\n    id: \"navbar\"\n  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"span\", {\n    className: \"menu-logo\"\n  }, \"Logo Goes Here\"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"ul\", {\n    className: \"main-menu\"\n  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"li\", {\n    className: \"menu-item\"\n  }, \"Home\"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"li\", {\n    className: \"menu-item\"\n  }, \"Services\"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"li\", {\n    className: \"menu-item\"\n  }, \"Who We Are\"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(\"li\", {\n    className: \"menu-item\"\n  }, \"Contact Us\"))));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Navbar);\n\n//# sourceURL=webpack:///./public/src/Component/Navbar/index.jsx?");
 
 /***/ }),
 
