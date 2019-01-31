@@ -1,5 +1,14 @@
 import React from "react";
 
-const App = () => <div>"Hello"</div>;
+// Component
+import Home from "../Home";
+import Navbar from "../Navbar";
+
+const App = () => (
+  <div>
+    {/* <Navbar /> */}
+    <Home />
+  </div>
+);
 
 export default App;

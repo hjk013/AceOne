@@ -1,0 +1,14 @@
+#home {
+  width: 100%;
+  height: 50vh;
+  background: #ededed;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .hello {
+    color: blue;
+  }
+}
