@@ -49,6 +49,11 @@
   font-weight: 400;
   letter-spacing: 12px;
   font-family: "Ubuntu", Bold;
+
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+  animation-timing-function: east-out;
+  // animation-delay: 3s;
 }
 
 .heading-primary-sub {
@@ -58,4 +63,37 @@
   letter-spacing: 17.4px;
   font-family: "Ubuntu", Medium;
   color: #ca3b4f;
+  animation: moveInRight 1.5s ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
