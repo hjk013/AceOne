@@ -1,6 +1,6 @@
 import "./Navbar.scss";
 import React from "react";
-import logo from "../../../dist/assets/img/AceOne_Logo_Light.png";
+import logo from "../../../dist/assets/img/AceOne_Logo.png";
 
 const Navbar = () => (
   <div id="navbar">
@@ -15,8 +15,12 @@ const Navbar = () => (
         <li className="menu-item">
           <a href="#services">Services</a>
         </li>
-        <li className="menu-item">Who We Are</li>
-        <li className="menu-item">Contact Us</li>
+        <li className="menu-item">
+          <a href="#who">Who We Are</a>
+        </li>
+        <li className="menu-item">
+          <a href="#contact">Contact Us</a>
+        </li>
       </ul>
     </div>
   </div>
